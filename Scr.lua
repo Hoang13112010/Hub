@@ -37,9 +37,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     AddButton(Tab1o, {
      Name = "Redz Hub",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent./luraobermcomeyer-jpg/redzhub/refs/heads/main/redzhub.lua.txt"))()
   end
-  })
+ })
   
   AddButton(Tab1o, {
      Name = "Gravity Hub",
@@ -51,7 +51,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFr
   AddButton(Tab1o, {
      Name = "Quantum Onyx",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
-  end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+   end
   })
+
+AddButton(Tab1o, {
+     Name = "Andepzai Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
+    end
+   })
   
