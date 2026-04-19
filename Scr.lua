@@ -30,12 +30,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Get key"})
      local Tab1o = MakeTab({Name = "no key"})
+     local Tab2o = MakeTab({Name = "Get key"})
      
 ------- BUTTON
     
-    AddButton(Tab1o, {
+    AddButton(Tab2o, {
      Name = "Omg Hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
@@ -60,11 +60,5 @@ AddButton(Tab1o, {
      Name = "Andepzai Hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
-  end
- })
-AddButton(Tab1o, {
-     Name = "Andepzai Hub",
-    Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/chuatewibu/anime/refs/heads/main/anime'))()
   end
  })
