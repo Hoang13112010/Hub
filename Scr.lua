@@ -30,15 +30,16 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Blox Fruits"})
+     local Tab1o = MakeTab({Name = "Get key"})
+     local Tab1o = MakeTab({Name = "no key"})
      
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "Omg Hub",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent./luraobermcomeyer-jpg/redzhub/refs/heads/main/redzhub.lua.txt"))()
-  end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+ end
  })
   
   AddButton(Tab1o, {
@@ -52,13 +53,18 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFr
      Name = "Quantum Onyx",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
-   end
-  })
+  end
+ })
 
 AddButton(Tab1o, {
      Name = "Andepzai Hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
-    end
-   })
-  
+  end
+ })
+AddButton(Tab1o, {
+     Name = "Andepzai Hub",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/chuatewibu/anime/refs/heads/main/anime'))()
+  end
+ })
